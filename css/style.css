@@ -29,23 +29,20 @@ a:hover {
   height: 30vh;
   margin: 2vh auto;
   box-shadow: 2px 2px rgba(0,0,0,0.4);
+  background-size: cover;
+  background-position: left;
 }
 
-.roma {
+#roma {
   background-image: url(../img/roma.jpg);
-  background-size: cover;
-  background-position: left;
-}
-.copenaghen {
-  background-image: url(../img/milano.jpg);
-  background-size: cover;
-  background-position: left;
 }
 
-.tokyo {
+#copenaghen {
+  background-image: url(../img/milano.jpg);
+}
+
+#tokyo {
   background-image: url(../img/napoli.jpg);
-  background-size: cover;
-  background-position: left;
 }
 
 .filter {
